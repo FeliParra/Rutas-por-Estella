@@ -3,6 +3,12 @@
     padding: 0;
 
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 10%;
+    height: 20%;
 }
 
 h2{
@@ -14,14 +20,25 @@ article h2{
 }
 
 h1{
-    background-color: mediumturquoise;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 18, 18);
     text-align: center;
     border: 1px solid;
 }
 
 .navegador1{
-    background-color: mediumpurple;
+    background-color: rgb(255, 244, 18);
     text-align: center;
+}
+
+.navegador1 li {
+    float: left;
+}
+  
+.navegador1 a {
+    display: block;
+    padding: 8px;
+    background-color:  rgb(255, 244, 18);
 }
 
 article{
@@ -41,7 +58,7 @@ aside ul{
     text-align: center;
 }
 footer{
-    background-color: mediumorchid;
+    background-color:  rgb(255, 244, 18);
 }
 /*Tablet*/
 @media screen and (min-width: 768px){
